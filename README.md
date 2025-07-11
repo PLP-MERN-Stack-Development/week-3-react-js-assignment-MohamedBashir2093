@@ -41,7 +41,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/week-3-react-js-assignment-MohamedBashir2093.git
+git clone https://github.com/PLP-MERN-Stack-Development/week-3-react-js-assignment-MohamedBashir2093.git
 cd week-3-react-js-assignment-MohamedBashir2093
 ````
 
@@ -72,7 +72,7 @@ Go to:
 
 ## 🌍 Live Demo
 
-✅ [Deployed Link (Vercel/Netlify)](https://your-deployment-url.com)
+✅ [Deployed Link (Vercel)](https://week-3-react-js-a-git-fac244-arafatbashir093-gmailcoms-projects.vercel.app/)
 
 
 ---
