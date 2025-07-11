@@ -1,71 +1,124 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19924500&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+# 🌟 PLP Week 3 – React.js Front-End Assignment
 
-## Assignment Overview
+This is a complete front-end application built using **React**, **Vite**, **Tailwind CSS**, and **React Router**. It was created as part of the **Power Learn Project (PLP) – Week 3 assignment** and showcases essential modern front-end skills, including state management, hooks, theme context, and API integration.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+---
 
-## Getting Started
+## ✅ Features
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+- 🧱 **Reusable Components** – Navbar, Footer, Button, Card, Layout
+- 🎯 **Task Manager** – Add, delete, complete, and filter tasks (All / Active / Completed)
+- 💾 **Persistence** – Tasks saved to **localStorage**
+- 🌙 **Theme Toggle** – Light/Dark mode using `useContext` and Tailwind dark mode
+- 🔄 **API Integration** – Fetch posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- 🔍 **Search & Pagination** – Filter API data and paginate results
+- 📱 **Responsive Design** – Works seamlessly on mobile, tablet, and desktop
+- ⚛️ **React Hooks** – `useState`, `useEffect`, `useContext`
+- 🛠️ **Custom Hook** – `useLocalStorage` to persist tasks between refreshes
 
-## Files Included
+---
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
+## 🧠 Project Structure
 
 ```
+
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+├── components/        # Reusable components: Navbar, Footer, Button, Card
+├── context/           # ThemeContext (light/dark mode)
+├── hooks/             # Custom hooks (useLocalStorage)
+├── pages/             # Page-level components (Home, Tasks, Posts)
+├── App.jsx            # Routing structure
+├── main.jsx           # ReactDOM entry
+└── index.css          # Tailwind CSS
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/week-3-react-js-assignment-MohamedBashir2093.git
+cd week-3-react-js-assignment-MohamedBashir2093
+````
+
+### 2. Install Dependencies
+
+Make sure you have [Node.js](https://nodejs.org/) installed (v18+). Then install packages:
+
+```bash
+pnpm install
+# or use npm if you prefer:
+# npm install
 ```
 
-## Submission
+### 3. Run the App
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+```bash
+pnpm run dev
+# or
+npm run dev
+```
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### 4. Open in Browser
 
-## Resources
+Go to:
+👉 `http://localhost:5173`
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+---
+
+## 🌍 Live Demo
+
+✅ [Deployed Link (Vercel/Netlify)](https://your-deployment-url.com)
+
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+> Introduction, theme toggle, and navigation
+
+![Home Screenshot](./src/Screenshots/Screenshot%202025-07-11%20154553.png)
+
+### ✅ Tasks Page
+
+> Add, delete, complete, and filter tasks — saved to local storage
+
+![Tasks Screenshot](./src/Screenshots/Screenshot%202025-07-11%20154647.png)
+
+### 📬 Posts Page
+
+> Data from API with search, loading state, and pagination
+
+![Posts Screenshot](./src/Screenshots/Screenshot%202025-07-11%20154714.png)
+
+
+
+---
+
+## 📦 Tech Stack
+
+* **React** (Hooks, Context API)
+* **Vite** (Fast bundler & dev server)
+* **Tailwind CSS** (Styling + responsive design)
+* **React Router DOM** (Routing)
+* **JSONPlaceholder API** (External data)
+* **PNPM/NPM** (Package management)
+
+---
+
+## 👨‍💻 Author
+
+**Hamud Mohamed Bashir**
+
+---
+
+## 📜 License
+
+This project is for educational purposes under PLP and is open for personal learning or showcasing.
+
